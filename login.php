@@ -26,14 +26,16 @@
     
     <form action="">
     
-    	<label for="login" >Login : </label>
-		<input id="login" name="login" type="text" value="" size="10" maxlength="8" />
-		
-		<br />
-		
-		<label for="mdp" >Mot de Passe : </label>
-		<input id="mdp" name="login" type="password" value="" size="10" maxlength="8" />    
-    
+    	<p>
+        	<label for="login" >Login : </label>
+    		<input id="login" name="login" type="text" value="" size="10" maxlength="8" />
+    		
+    		<br />
+    		
+    		<label for="mdp" >Mot de Passe : </label>
+    		<input id="mdp" name="login" type="password" value="" size="10" maxlength="8" />    
+    	</p>
+    	
     </form>
 
    </div>
