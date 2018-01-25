@@ -84,7 +84,7 @@ a:hover, a:active {
 }
 
 #footer {
-	background: url(images/footer-bg.gif) no-repeat;
+	background: url(../../images/footer-bg.gif) no-repeat;
 	clear: both;
 	color: #FFFFFF;
 	display: block;
