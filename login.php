@@ -1,10 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-<head>
-<title>FireRescue - Login</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="lib/css/style.css" rel="stylesheet" type="text/css" />
-</head>
+<?php include 'lib/php/head.php'?>
 <body>
 <div id="container">
   <div id="logo"><img src="images/logo.jpg" alt="Logo" /></div>
