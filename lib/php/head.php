@@ -5,3 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link href="lib/css/style.css" rel="stylesheet" type="text/css" />
 </head>
+<body>
+<div id="container">
+  <div id="logo"><img src="images/logo.jpg" alt="Logo" /></div>
+  <div id="banner"><img src="images/main-image.jpg" alt="Main Image" /></div>
