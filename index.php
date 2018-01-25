@@ -18,5 +18,5 @@
       <p>If you're looking for beautiful and professionally made templates you can find them at Template Beauty.com.</p>
       <p class="flt-rgt"><a href="http://www.free-css.com/">MORE</a></p>
    </div>
-   <?php include 'lib/php/menu_droit.php'?>
+    <?php include 'lib/php/menu_droit.php'?>
 <?php include 'lib/php/footer.php'?>
