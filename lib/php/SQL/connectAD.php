@@ -36,7 +36,7 @@ switch ($ip[0]) {
 	    $host = "51.15.193.69";
 	    $user = "petiotdev";
 	    $password = "danger29";
-        $dbname = "sdis29";    
+        $dbname = "sdis29"; 
         $port="3306";
         break;
         
