@@ -5,14 +5,14 @@ $ip=explode(".",$_SERVER['SERVER_ADDR']);
 
 switch ($ip[0]) {
 	
-	case 127 :
+	/*case 127 :
 		//local
 		$host = "127.0.0.1";
 		$user = "root";
 		$password = "";
 		$dbname = "SI6";
 		$port="3306";
-		break;
+		break;*/
 		
 	case 31 :
 		//hostinger
@@ -32,6 +32,14 @@ switch ($ip[0]) {
 		$port="3306";
 		break;
 		
+	case 127 :
+	    $host = "51.15.193.69";
+	    $user = "petiotdev";
+	    $password = "danger29";
+        $dbname = "sdis29";    
+        $port="3306";
+        break;
+        
 	default :
 		exit ("Serveur non reconnu...");
 		break;

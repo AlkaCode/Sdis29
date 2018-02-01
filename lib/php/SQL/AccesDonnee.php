@@ -13,7 +13,7 @@
  */
 
 
-$modeacces = "mysqli";
+$modeacces = "mysql";
 
 
 

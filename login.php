@@ -1,3 +1,4 @@
+<?php include 'lib/php/SQL/connectAD.php'?>
 <?php include 'lib/php/head.php'?>
 <?php include 'lib/php/menu.php'?>
 
@@ -13,7 +14,7 @@
         		<br />
         		
         		<label for="mdp" >Mot de Passe : </label>
-        		<input id="mdp" name="login" type="password" value="" size="10" maxlength="8" />    
+        		<input id="mdp" name="mdp" type="password" value="" size="10" maxlength="8" />    
         	</p>
         	
         </form>
