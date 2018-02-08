@@ -10,7 +10,7 @@ switch ($ip[0]) {
 		$host = "127.0.0.1";
 		$user = "root";
 		$password = "";
-		$dbname = "SI6";
+		$dbname = "sdis29";
 		$port="3306";
 		break;
 		
