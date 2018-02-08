@@ -1,7 +1,7 @@
 <?php include 'lib/php/head.php'?>
 <?php include 'lib/php/menu.php'?>
 
-  <div id="content">
+<div id="content">
     <div id="left">
     
         <form action="lib/php/SQL/connectLogin.php" method="get">
@@ -19,4 +19,5 @@
         </form>
     </div>
    <?php include 'lib/php/menu_droit.php'?>
+</div>
 <?php include 'lib/php/footer.php'?>
