@@ -5,14 +5,14 @@ $ip=explode(".",$_SERVER['SERVER_ADDR']);
 
 switch ($ip[0]) {
 	
-	case 127 :
+	/*case 127 :
 		//local
 		$host = "127.0.0.1";
 		$user = "root";
 		$password = "";
 		$dbname = "sdis29";
 		$port="3306";
-		break;
+		break;*/
 		
 	case 31 :
 		//hostinger
