@@ -13,8 +13,8 @@
 
      print_r($tablonomfamille);
 
-	// tant que $i est inferieur au nombre d'éléments du tableau...
-	/*for($i=0;$i<sizeof($tabloclasses);$i++) {
+	 //tant que $i est inferieur au nombre d'éléments du tableau...
+	for($i=0;$i<sizeof($tabloclasses);$i++) {
     	$sql="INSERT INTO classe(idclasse,intitule) VALUES (NULL,'".$tabloclasses[$i]."')";
     	echo "Sql : ".$sql."<br />";
 		$result = mysql_query($sql)
@@ -22,10 +22,10 @@
 
 
 
- 			INSERT INTO eleve(ideleve,nom,prenom,numclasse,datenaissance) VALUES (NULL ,'jkhjk','jkhjkh','12','2011-10-20')
+ 			//INSERT INTO eleve(ideleve,nom,prenom,numclasse,datenaissance) VALUES (NULL ,'jkhjk','jkhjkh','12','2011-10-20')
 
 
-    }                                  */
+    }                                  
 
 ?>
 

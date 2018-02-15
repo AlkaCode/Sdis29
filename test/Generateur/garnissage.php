@@ -14,5 +14,4 @@
         echo "Sql : ".$sql."<br />";
         $result = executeSQL($sql);
     }
-
 ?>

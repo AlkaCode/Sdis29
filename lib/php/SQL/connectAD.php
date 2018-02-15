@@ -32,13 +32,21 @@ switch ($ip[0]) {
 		$port="3306";
 		break;
 		
-	case 127 :
+	/*case 127 :
 	    $host = "51.15.193.69";
 	    $user = "petiotdev";
 	    $password = "danger29";
         $dbname = "sdis29"; 
         $port="3306";
-        break;
+        break;*/
+        
+	case 127 : 
+	    $host = "51.15.36.144";
+	    $user ="gicquel";
+	    $password = "azertyuiop";
+	    $dbname = "gicquel";
+	    $port = "3306";
+	    break;
         
 	default :
 		exit ("Serveur non reconnu...");
