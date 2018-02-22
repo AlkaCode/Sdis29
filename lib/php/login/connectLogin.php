@@ -23,8 +23,9 @@
                     
                     $_SESSION['Grade'] = $ligne['GRA_LIBELLE'];
                     
-                }  
-                echo "<meta http-equiv='refresh' content='0;url=login.php?message=<font color=green>Mot de Passe Bon</font>'>";
+                }
+               echo "<meta http-equiv='refresh' content='0;url=login.php?message=<font color=green>Mot de Passe Bon</font>'>";
+                
             }else{
                 echo "<meta http-equiv='refresh' content='0;url=login.php?message=<font color=red>Mauvais Mot de Passe</font>'>";
             }
